@@ -13,6 +13,8 @@
 		C3DB444C1E22F13B0050463C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DB444B1E22F13B0050463C /* Assets.xcassets */; };
 		C3DB444F1E22F13B0050463C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DB444D1E22F13B0050463C /* LaunchScreen.storyboard */; };
 		C3DB445A1E22F13B0050463C /* TheNewScriberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB44591E22F13B0050463C /* TheNewScriberTests.swift */; };
+		C3DB44651E22F1B90050463C /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C3DB44641E22F1B90050463C /* test.m4a */; };
+		C3DB44671E22F1C70050463C /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB44661E22F1C70050463C /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C3DB44551E22F13B0050463C /* TheNewScriberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheNewScriberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DB44591E22F13B0050463C /* TheNewScriberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNewScriberTests.swift; sourceTree = "<group>"; };
 		C3DB445B1E22F13B0050463C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3DB44641E22F1B90050463C /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
+		C3DB44661E22F1C70050463C /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,13 @@
 		C3DB44431E22F13B0050463C /* TheNewScriber */ = {
 			isa = PBXGroup;
 			children = (
+				C3DB44661E22F1C70050463C /* CircleButton.swift */,
 				C3DB44441E22F13B0050463C /* AppDelegate.swift */,
 				C3DB44461E22F13B0050463C /* ViewController.swift */,
 				C3DB44481E22F13B0050463C /* Main.storyboard */,
 				C3DB444B1E22F13B0050463C /* Assets.xcassets */,
 				C3DB444D1E22F13B0050463C /* LaunchScreen.storyboard */,
+				C3DB44641E22F1B90050463C /* test.m4a */,
 				C3DB44501E22F13B0050463C /* Info.plist */,
 			);
 			path = TheNewScriber;
@@ -181,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DB44651E22F1B90050463C /* test.m4a in Resources */,
 				C3DB444F1E22F13B0050463C /* LaunchScreen.storyboard in Resources */,
 				C3DB444C1E22F13B0050463C /* Assets.xcassets in Resources */,
 				C3DB444A1E22F13B0050463C /* Main.storyboard in Resources */,
@@ -201,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DB44671E22F1C70050463C /* CircleButton.swift in Sources */,
 				C3DB44471E22F13B0050463C /* ViewController.swift in Sources */,
 				C3DB44451E22F13B0050463C /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +420,7 @@
 				C3DB44601E22F13B0050463C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3DB44611E22F13B0050463C /* Build configuration list for PBXNativeTarget "TheNewScriberTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				C3DB44631E22F13B0050463C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
